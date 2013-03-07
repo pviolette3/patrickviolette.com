@@ -29,6 +29,6 @@ urlpatterns = patterns('blog.views',
    url(r'^archive/$',ListView.as_view(
      queryset=Post.objects.all().order_by("-created"),
      template_name="archive.html")),
-   url(r'^tag/(?P<tag>\w*)$', 'tags'),
+   url(r'^tag/(?P<tag>\w+)$', 'tags'),
    url(r'^feed/$', BlogFeed()),
 )
