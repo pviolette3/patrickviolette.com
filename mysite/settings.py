@@ -1,5 +1,4 @@
 # Django settings for mysite project.
-
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -117,6 +116,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'taggit',
+    'bootstrap_toolkit',
     'mysite',
     'blog'
 )

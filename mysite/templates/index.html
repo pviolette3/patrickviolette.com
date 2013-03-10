@@ -1,11 +1,19 @@
-<h1>Welcome to Patrick Violette's Homepage on the web </h1>
+{% extends "base.html" %}
 
-<h2>Check out <a href="/blog/">my blog</a> on this site </h1>
+{% block title %}Home{% endblock %}
 
-<h2>Here are some of the many ways you can contact me:</h2>
-<div class="links">
-  <p><a href="https://github.com/pviolette3" >github</a></p>
-  <p><a href="https://twitter.com/p_violette">twitter</a></p>
-  <p><a href="http://www.linkedin.com/pub/patrick-violette/56/983/299">
-    linkedin</a></p>
-</div> 
+{% block content %}
+
+<h3>This is Patrick Violette's home page on the web</h3>
+
+<div><strong>Check out what I'm up to:</strong></div>
+<div class="container pull-left">
+  <ul class="nav">
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="https://github.com/pviolette3">Github</a></li>
+    <li><a href="http://www.linkedin.com/pub/patrick-violette/56/983/299/">LinkedIn</a></li>
+    <li><a href="https://twitter.com/p_violette">Twitter: @p_violette</a></li>
+  </ul>
+</div>
+
+{% endblock %}
