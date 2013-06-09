@@ -1,6 +1,7 @@
 #Python stuff
 *.py[cod]
 venv/*
+venv
 
 # C extensions
 *.so
