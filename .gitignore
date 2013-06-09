@@ -2,6 +2,7 @@
 *.py[cod]
 venv/*
 venv
+build
 
 # C extensions
 *.so
